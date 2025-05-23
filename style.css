@@ -1,0 +1,65 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+h1{
+    color: blue;
+    text-align: center;
+    cursor: pointer;
+}
+
+.col-md-2 span{
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.col-md-2{
+    text-align: center;
+    margin-top: 15px;
+}
+
+h3{
+    border: 1px solid;
+    color: brown;
+    text-align: center;
+    cursor: pointer;
+}
+
+.cols{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.red{
+    background-color: red;
+    border: 1px solid;
+    width: 5rem;
+    height: 5rem;
+    cursor: pointer;
+}
+
+.green{
+    background-color: green;
+    border: 1px solid;
+    width: 5rem;
+    height: 5rem;
+    cursor: pointer;
+}
+
+.yellow{
+    background-color: yellow;
+    border: 1px solid;
+    width: 5rem;
+    height: 5rem;
+    cursor: pointer;
+}
+
+.orange{
+    background-color: yellow;
+    color: white;
+}
