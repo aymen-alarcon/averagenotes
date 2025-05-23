@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .container{
+            margin-top: 10rem;
+        }
+
+        label{
+            display: flex;
+            justify-content: end;
+        }
+
+        .x{
+            padding: 5px;
+            border: 1px;
+            background-color: red;
+            cursor: pointer;
+        }
+
+        button, input{
+            margin-bottom: 5px;
+        }
+
+        button{
+            background-color: brown;
+            border: 1px solid white;
+        }
+
+        .col-md-2{
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+        }
+    </style>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10">
+                <center>
+                    <h1>Moyenne Générale</h1>
+                </center>
+            </div>
+            <div class="col-md-2">
+                <span class="x ms-1 mt-1" onclick="closed()">x</span>    
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-3">
+                <div>Modules</div>
+                <div>Maths</div>
+                <div>Communication</div>
+                <div>Algorithme</div>
+                <div>Dev Web</div>
+                <button onclick="clearall()">Nouveau</button><br>
+                <Button onclick="calcul()">Calcul</Button>
+            </div>
+            <div class="col-md-3">
+                <div>Notes</div>
+                <input type="number" name="" id="n1">
+                <input type="number" name="" id="n2">
+                <input type="number" name="" id="n3">
+                <input type="number" name="" id="n4"><br>
+                <label for="somme">somme</label> 
+           </div>
+           <div class="col-md-3">
+                <div>Coef</div>
+                <input type="number" name="" id="c1">
+                <input type="number" name="" id="c2">
+                <input type="number" name="" id="c3">
+                <input type="number" name="" id="c4"><br>
+                <input type="number" name="somme" id="s" disabled> <br>
+                <label for="MG">MG</label>
+           </div>
+           <div class="col-md-3">
+                <div>Nots * Coef</div>
+                <input type="number" name="" id="nc1" disabled><span class="x ms-1 mt-1" onclick="clear1()">x</span>
+                <input type="number" name="" id="nc2" disabled><span class="x ms-1 mt-1" onclick="clear2()">x</span>
+                <input type="number" name="" id="nc3" disabled><span class="x ms-1 mt-1" onclick="clear3()">x</span>
+                <input type="number" name="" id="nc4" disabled><span class="x ms-1 mt-1" onclick="clear4()">x</span>
+                <input type="number" name="somme" id="ncs" disabled><br>
+                <input type="number" name="MG" id="mg" disabled>
+           </div>
+        </div>
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>
