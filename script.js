@@ -59,7 +59,7 @@ function calcul() {
     mg.value = ncs.value / s.value ;
 }
 
-/*
+
 
 let input = document.getElementsByTagName("input");
 
@@ -70,7 +70,7 @@ function clearall() {
     input[0].focus();
 }
 
-*/
+
 
 let input = document.querySelectorAll('input');
 
